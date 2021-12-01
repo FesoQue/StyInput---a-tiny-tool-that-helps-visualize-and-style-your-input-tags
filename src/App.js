@@ -172,7 +172,7 @@ const App = () => {
       <header>
         <div className='title'>
           <h1>StyInput</h1>
-          <p>Visualiz👁 your input styles</p>
+          <p>Visualiz👁 & style your inputs</p>
         </div>
       </header>
       <form>
