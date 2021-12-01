@@ -127,7 +127,7 @@ const App = () => {
     font-size: ${fontSize}px;
     color: ${fontColor};
     background: ${bgColor};
-    padding: ${topPadding}px, ${rightPadding}px, ${bottomPadding}px, ${leftPadding}px;
+    padding: ${topPadding}px ${rightPadding}px ${bottomPadding}px ${leftPadding}px;
     border: ${borderSize}px solid ${color};
     border-radius: ${radius}px;
     box-shadow: 0 0 0 ${boxShadow}px ${color};
