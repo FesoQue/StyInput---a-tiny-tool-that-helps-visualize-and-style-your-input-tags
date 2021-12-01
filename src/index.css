@@ -195,10 +195,16 @@ input[type='checkbox']:checked {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+.border-props .grp1 label,
+.border-props .grp2 label,
+.focus-el label {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
 .grp1 > *,
 .grp2 > *,
 .focus-el > * {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .box {
   width: 50px;
