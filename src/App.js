@@ -100,23 +100,23 @@ const App = () => {
 
   useEffect(() => {
     // border
-    borderEl.current.style.background = `linear-gradient(to right, #a5f3eb ${
+    borderEl.current.style.background = `linear-gradient(to right, #00c48c ${
       borderSize * 10
-    }%, #a5f3eb ${borderSize * 10}%, #faf9f9 ${
+    }%, #00c48c ${borderSize * 10}%, #faf9f9 ${
       borderSize * 10
     }%, #faf9f9 100%)`;
     // border radius
-    borderRadiusEl.current.style.background = `linear-gradient(to right, #a5f3eb ${
+    borderRadiusEl.current.style.background = `linear-gradient(to right, #00c48c ${
       radius * 2
-    }%, #a5f3eb ${radius * 2}%, #faf9f9 ${radius * 2}%, #faf9f9 100%)`;
+    }%, #00c48c ${radius * 2}%, #faf9f9 ${radius * 2}%, #faf9f9 100%)`;
     // box shadow
-    boxShadowEl.current.style.background = `linear-gradient(to right, #a5f3eb ${
+    boxShadowEl.current.style.background = `linear-gradient(to right, #00c48c ${
       boxShadow * 10
-    }%, #a5f3eb ${boxShadow * 10}%, #faf9f9 ${boxShadow * 10}%, #faf9f9 100%)`;
+    }%, #00c48c ${boxShadow * 10}%, #faf9f9 ${boxShadow * 10}%, #faf9f9 100%)`;
     // :on focus box-shadow
-    focusShdwEl.current.style.background = `linear-gradient(to right, #a5f3eb ${
+    focusShdwEl.current.style.background = `linear-gradient(to right, #00c48c ${
       focusShdwVal * 10
-    }%, #a5f3eb ${focusShdwVal * 10}%, #faf9f9 ${
+    }%, #00c48c ${focusShdwVal * 10}%, #faf9f9 ${
       focusShdwVal * 10
     }%, #faf9f9 100%)`;
   }, [borderSize, radius, boxShadow, focusShdwVal]);
